@@ -1,3 +1,5 @@
+import styled from "@emotion/styled";
+
 export const Common = {
   // 숫자가 높을수록 어두운 색
   color: {
@@ -22,3 +24,29 @@ export const Common = {
     g900: "#424242",
   },
 };
+
+export const PageLayoutStyle = styled.div`
+  position: relative;
+  width: 100%;
+  padding: 28px 66px;
+  border-left: 1px solid ${Common.color.g600};
+`;
+
+export const TitleStyle = styled.div`
+  h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 7px;
+  }
+  span {
+    display: block;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: ${Common.color.g600};
+    margin-bottom: 23px;
+  }
+`;

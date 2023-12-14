@@ -1,12 +1,13 @@
-import React from "react";
 import styled from "@emotion/styled";
-import Title from "../../components/joonseo/Title";
+import React from "react";
 import CardContainer from "../../components/joonseo/CardContainer";
-
+import SideBar from "../../components/SideBar/components/SideBar";
+import Header from "../../components/header/Header";
 import BtnAll from "../../components/joonseo/BtnAll";
-import BtnList from "../../components/joonseo/BtnList";
 import BtnComplete from "../../components/joonseo/BtnComplete";
-import BtnAdd from "../../components/joonseo/BtnAdd";
+import BtnList from "../../components/joonseo/BtnList";
+import Main from "../../components/main/Main";
+import { PageLayoutStyle, TitleStyle } from "../../styles/common";
 
 const StyledContainer = styled.div`
   display: flex;
@@ -15,16 +16,24 @@ const StyledContainer = styled.div`
 
 const Cart = () => {
   return (
-    <div>
-      <Title />
-      <StyledContainer>
-        <BtnAll />
-        <BtnList />
-        <BtnComplete />
-      </StyledContainer>
-
-      <CardContainer />
-    </div>
+    <>
+      <Header />
+      <Main>
+        <SideBar />
+        <PageLayoutStyle>
+          <TitleStyle>
+            <h2>장바구니 목록</h2>
+            <span>장바구니 목록을 추가하고 관리하세요</span>
+          </TitleStyle>
+          <StyledContainer>
+            <BtnAll />
+            <BtnList />
+            <BtnComplete />
+          </StyledContainer>
+          <CardContainer />
+        </PageLayoutStyle>
+      </Main>
+    </>
   );
 };
 

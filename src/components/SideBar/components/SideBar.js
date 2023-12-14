@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
-import React, { useState } from "react";
-import { Common } from "../../../styles/common";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const SideBar = () => {
   const SideBar = styled.section`
