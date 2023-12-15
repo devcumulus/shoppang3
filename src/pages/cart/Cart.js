@@ -6,7 +6,6 @@ import BtnAll from "../../components/joonseo/BtnAll";
 import BtnComplete from "../../components/joonseo/BtnComplete";
 import BtnList from "../../components/joonseo/BtnList";
 import CardContainer from "../../components/joonseo/CardContainer";
-import CartAddEdit from "../../components/modal/components/CartAddEdit";
 import Main from "../../components/main/Main";
 import { PageLayoutStyle, TitleStyle } from "../../styles/common";
 
