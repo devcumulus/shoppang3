@@ -1,7 +1,7 @@
 import React from "react";
+import SideBar from "../../components/SideBar/components/SideBar";
 import Header from "../../components/header/Header";
 import Main from "../../components/main/Main";
-import SideBar from "../../components/SideBar/components/SideBar";
 import { PageLayoutStyle, TitleStyle } from "../../styles/common";
 
 const Mart = () => {
@@ -12,8 +12,8 @@ const Mart = () => {
         <SideBar />
         <PageLayoutStyle>
           <TitleStyle>
-            <h2>쇼핑하기 좋은날</h2>
-            <span>핫딜 상품을 추천 받아보세요</span>
+            <h2>근처 매장찾기</h2>
+            <span>근처 매장을 검색 하고 가까운 매장을 찾아보세요</span>
           </TitleStyle>
         </PageLayoutStyle>
       </Main>

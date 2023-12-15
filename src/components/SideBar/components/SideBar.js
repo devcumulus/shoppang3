@@ -7,8 +7,6 @@ const SideBar = () => {
     position: relative;
     width: 245px;
     height: 950px;
-
-    /* background-color: pink; */
   `;
   const SideBarWrap = styled.div`
     position: relative;

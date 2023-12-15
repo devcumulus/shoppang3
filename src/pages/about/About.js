@@ -1,9 +1,9 @@
-import React from "react";
-import Header from "../../components/header/Header";
 import styled from "@emotion/styled";
-import Main from "../../components/main/Main";
+import React from "react";
 import SideBar from "../../components/SideBar/components/SideBar";
-import { Common, PageLayoutStyle, TitleStyle } from "../../styles/common";
+import Header from "../../components/header/Header";
+import Main from "../../components/main/Main";
+import { PageLayoutStyle, TitleStyle } from "../../styles/common";
 const About = () => {
   const AboutInfo = styled.div`
     .about-txet {
