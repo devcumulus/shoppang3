@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
-import { Wrap } from "./styles/basic";
 import About from "./pages/about/About";
 import Cart from "./pages/cart/Cart";
-import Mart from "./pages/mart/Mart";
 import Event from "./pages/event/Event";
-import SideBar from "./components/SideBar/components/SideBar";
+import Mart from "./pages/mart/Mart";
+import { Wrap } from "./styles/basic";
 
 const App = () => {
   return (

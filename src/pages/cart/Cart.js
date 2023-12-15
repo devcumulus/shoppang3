@@ -1,11 +1,12 @@
 import styled from "@emotion/styled";
 import React from "react";
-import CardContainer from "../../components/joonseo/CardContainer";
 import SideBar from "../../components/SideBar/components/SideBar";
 import Header from "../../components/header/Header";
 import BtnAll from "../../components/joonseo/BtnAll";
 import BtnComplete from "../../components/joonseo/BtnComplete";
 import BtnList from "../../components/joonseo/BtnList";
+import CardContainer from "../../components/joonseo/CardContainer";
+import CartAddEdit from "../../components/modal/components/CartAddEdit";
 import Main from "../../components/main/Main";
 import { PageLayoutStyle, TitleStyle } from "../../styles/common";
 

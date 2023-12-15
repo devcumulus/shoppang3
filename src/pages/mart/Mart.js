@@ -1,7 +1,7 @@
 import React from "react";
+import SideBar from "../../components/SideBar/components/SideBar";
 import Header from "../../components/header/Header";
 import Main from "../../components/main/Main";
-import SideBar from "../../components/SideBar/components/SideBar";
 import { PageLayoutStyle, TitleStyle } from "../../styles/common";
 import styled from "@emotion/styled";
 
