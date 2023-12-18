@@ -1,10 +1,10 @@
 import React from "react";
-import { BtnStyles } from "./BtnStyles";
+import { LeageBtnStyles } from "../../../styles/common";
 
 const BtnComplete = () => {
   return (
     <div>
-      <BtnStyles type="button">장 본것</BtnStyles>
+      <LeageBtnStyles type="button">장 본것</LeageBtnStyles>
     </div>
   );
 };

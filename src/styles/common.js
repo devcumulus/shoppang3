@@ -29,7 +29,6 @@ export const PageLayoutStyle = styled.div`
   position: relative;
   width: 100%;
   padding: 28px 66px;
-  margin-left: 40px;
   border-left: 1px solid ${Common.color.g600};
 `;
 
@@ -49,5 +48,54 @@ export const TitleStyle = styled.div`
     line-height: 120%;
     color: ${Common.color.g600};
     margin-bottom: 23px;
+  }
+`;
+
+export const LeageBtnStyles = styled.button`
+  position: relative;
+  width: 120px;
+  height: 49px;
+  border-radius: 24px;
+  border: 1px solid ${Common.color.g600};
+  margin-right: 15px;
+  background-color: #fff;
+  color: ${Common.color.g900};
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+
+  &:hover {
+    color: #fff;
+    background-color: ${Common.color.p400};
+  }
+
+  &:active {
+    background-color: ${Common.color.p600};
+  }
+`;
+
+export const SmallBtnStyles = styled.button`
+  width: 64px;
+  height: 37px;
+
+  border-radius: 18px;
+  border: 1px solid ${Common.color.g600};
+  background-color: #fff;
+  color: ${Common.color.g900};
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+
+  &:hover {
+    color: #fff;
+    background-color: ${Common.color.p400};
+  }
+
+  &:active {
+    background-color: ${Common.color.p600};
   }
 `;
