@@ -29,6 +29,7 @@ export const PageLayoutStyle = styled.div`
   position: relative;
   width: 100%;
   padding: 28px 66px;
+  margin-left: 40px;
   border-left: 1px solid ${Common.color.g600};
 `;
 
