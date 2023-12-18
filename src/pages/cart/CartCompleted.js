@@ -14,7 +14,7 @@ const StyledContainer = styled.div`
   position: relative;
 `;
 
-const Cart = () => {
+const CartCompleted = () => {
   return (
     <>
       <Header />
@@ -37,4 +37,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default CartCompleted;
