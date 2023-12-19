@@ -9,14 +9,13 @@ import {
 } from "../styles/CardStyles";
 import { SmallBtnStyles } from "../../../styles/common";
 
-const CardForm = () => {
+const CardForm = props => {
+  const item = props.item;
   return (
     <CardBox>
-      <Heading>상품이름</Heading>
-      <Category>카테고리</Category>
-      <Memo>
-        Memo: Supporting or descriptive text for the card goes here like a pro.
-      </Memo>
+      <Heading>{item.productNm}</Heading>
+      <Category>{item.categoryNm}</Category>
+      <Memo>{item.memo}</Memo>
       <CardFormBtn>
         <SmallBtnStyles type="button">수정</SmallBtnStyles>
         <SmallBtnStyles type="button">삭제</SmallBtnStyles>

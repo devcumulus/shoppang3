@@ -68,12 +68,13 @@ export const LeageBtnStyles = styled.button`
   line-height: 17px;
 
   &:hover {
-    color: #fff;
+    color: ${Common.color.p600};
     background-color: ${Common.color.p400};
   }
 
   &:active {
-    background-color: ${Common.color.p600};
+    color: #fff;
+    background-color: ${Common.color.primary};
   }
 `;
 
@@ -92,11 +93,12 @@ export const SmallBtnStyles = styled.button`
   line-height: 17px;
 
   &:hover {
-    color: #fff;
+    color: ${Common.color.p600};
     background-color: ${Common.color.p400};
   }
 
   &:active {
-    background-color: ${Common.color.p600};
+    color: #fff;
+    background-color: ${Common.color.primary};
   }
 `;

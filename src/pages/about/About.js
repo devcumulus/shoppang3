@@ -27,6 +27,10 @@ const About = () => {
       justify-content: center;
       align-items: center;
     }
+    img {
+      position: relative;
+      width: 100%;
+    }
   `;
 
   return (
@@ -40,32 +44,7 @@ const About = () => {
               <h2>About service</h2>
               <span>우리의 서비스를 소개합니다</span>
             </TitleStyle>
-            <div className="about-txet">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industrys standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
-              </p>
-              <div className="about-txet-img">
-                <img src="/assets/images/aboutImages/Vector.svg" alt="" />
-              </div>
-            </div>
-            <div className="about-txet">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industrys standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
-              </p>
-              <div className="about-txet-img">
-                <img src="/assets/images/aboutImages/Vector.svg" alt="" />
-              </div>
-            </div>
+            <img src="/assets/images/aboutimages/about.png" alt="" />
           </AboutInfo>
         </PageLayoutStyle>
       </Main>
