@@ -39,7 +39,7 @@ const SideBar = () => {
           </About>
           <Basket>
             <p>장바구니</p>
-            <Link to="/cart/cartPlan">
+            <Link to="/cart/cartplan">
               <ul>
                 <li>
                   <div className="hoverbox"></div>
@@ -63,7 +63,7 @@ const SideBar = () => {
                 </li>
               </ul>
             </Link>
-            <Link to="/cart/cartAll">
+            <Link to="/cart/cartall">
               <ul>
                 <li>
                   <div className="hoverbox"></div>
